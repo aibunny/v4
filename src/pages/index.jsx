@@ -1,10 +1,23 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
+`;
+
+const GlobalStyle = createGlobalStyle`
+  html body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--navy) !important;
+    background-image: radial-gradient(
+      circle 250px at var(--x, 10px) var(--y, 10px),
+      #0404b5 0%,
+      var(--navy) 100%
+    ) !important;
+  }
 `;
 
 const IndexPage = ({ location }) => {
@@ -27,19 +40,7 @@ const IndexPage = ({ location }) => {
 
   return (
     <div ref={heroRef}>
-      <style jsx global>{`
-        html body {
-          height: 100vh;
-          width: 100%;
-          background-color: var(--navy) !important;
-
-          background-image: radial-gradient(
-            circle 250px at var(--x, 10px) var(--y, 10px),
-            #0404b5 0%,
-            var(--navy) 100%
-          ) !important;
-        }
-      `}</style>
+      <GlobalStyle />
       <div>
         <Layout location={location}>
           <StyledMainContainer>
