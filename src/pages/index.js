@@ -44,7 +44,9 @@ const IndexPage = ({ location }) => {
 
   useEffect(() => {
     const updateMousePosition = ev => {
-      if (!heroRef.current) {return;}
+      if (!heroRef.current) {
+        return;
+      }
       const { clientX, clientY } = ev;
       document.documentElement.style.setProperty('--x', `${clientX}px`);
       document.documentElement.style.setProperty('--y', `${clientY}px`);
