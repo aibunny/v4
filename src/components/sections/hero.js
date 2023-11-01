@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -58,34 +57,20 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is waht</h1>;
-  const two = <h2 className="big-heading">Xavier Elon Hollingsworth.</h2>;
-  const three = <h3 className="big-heading">I shape the future.</h3>;
+  const one = <h1>Hey there, I'm</h1>;
+  const two = <h2 className="big-heading">AIBUNNY!</h2>;
+  const three = <h3 className="big-heading">I'm a digital goofball.</h3>;
   const four = (
     <>
       <p>
-        I am a full-stack software engineer specializing in React, Typescript, Node, Express, and
-        MongoDB. I am currently working at{' '}
-        <a href="https://boozallen.com/" target="_blank" rel="noreferrer">
-          Booz Allen
-        </a>{' '}
-        and will be attending{' '}
-        <a href="https://omscs.gatech.edu/specialization-machine-learning">Georgia Tech</a> for my
-        MS in AI/Machine Leaning Specizalization starting in January 2024. I have 4 years of
-        professional experience. I am also working on building my own full stack application that
-        can be found <a href="https://xsj-ui.vercel.app/">here</a> which implements user
-        authentication and allows users to message each other instantly as well as message Chat GPT.
-        It was created in Next/Typescript/React, MongoDB, Node, Express, PostgreSQL and Firebase.
+        I transform code into giggles and bring joy to the tech world. I'm a master of goofing
+        around in the backend and a little touch in the world of DevOps.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://github.com/XavierElon/XavierElon/blob/main/README.md"
-      target="_blank"
-      rel="noreferrer">
-      Check out my Github
+    <a className="email-link" href="https://github.com/aibunny" target="_blank" rel="noreferrer">
+      Check out my GitHub
     </a>
   );
 

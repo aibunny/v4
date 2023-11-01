@@ -1,26 +1,26 @@
 module.exports = {
-  email: 'xavierelon93@gmail.com',
+  email: 'waihenyafredrick@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/xavierelon',
+      url: 'https://github.com/aibunny',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/xavierelon',
+      url: 'https://www.instagram.com/aibunny._',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/elon_xavier',
+      url: 'https://twitter.com/theaibunny',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/xavierelon',
+      url: 'https://www.linkedin.com/in/waihenya',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io',
+      name: 'Medium',
+      url: 'https://aibunny.medium.com/',
     },
   ],
 

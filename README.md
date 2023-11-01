@@ -1,4 +1,4 @@
-Live site: [xavierelon.com](https://xavierelon.com)
+Live site: theaibunny[.com](https://xavierelon.com)
 
 <!--
 ## 🚨 Forking this repo (please read!)
@@ -47,7 +47,7 @@ Please also note that I did not build this site with the intention of it being a
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Preview the site as it will appear once deployed
 
    ```sh
    npm run serve

@@ -18,6 +18,7 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
+
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
@@ -31,7 +32,7 @@ const StyledText = styled.div`
     li {
       position: relative;
       margin-bottom: 10px;
-      padding-left: 20px;
+      padding left: 20px;
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
 
@@ -46,6 +47,7 @@ const StyledText = styled.div`
     }
   }
 `;
+
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
@@ -64,7 +66,7 @@ const StyledPic = styled.div`
     background-color: var(--green);
 
     &:hover,
-    &:focus {
+    &: focus {
       background: transparent;
       outline: 0;
 
@@ -127,15 +129,23 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
-    'TypeScript',
-    'React',
-    'Node.js',
-    'MongoDB',
-    'Express',
+    'Python',
+    'Go',
+    'Django Rest Framework',
+    'Gin',
+    'Graphene-Django',
+    'Flask',
+    'Docker',
+    'GCP',
     'AWS',
-    'Firebase',
-    'PostgreSQL',
+    'NOSQL',
+    'SQL',
+    'Redis',
+    'CI/CD',
+    'Web Servers',
+    'Linux Admin',
+    'Agile Methodologies',
+    'Container Orchestration',
   ];
 
   return (
@@ -146,23 +156,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I am Xavier Elon, a full-stack software engineer based in Orlando, FL who has a
-              passion for technology, artificial intelligence, space and blockchain. I am currently
-              working for Booz Allen as a Staff Engineer / Full stack software engineer!
+              Greetings! I'm Fredrick Waihenya, a seasoned backend engineer with a strong passion
+              for technology and a knack for crafting sophisticated software solutions. I currently
+              serve as the CTO and lead backend developer at Clickbanx, where I work alongside a
+              team of digital wizards.
             </p>
 
             <p>
-              I’ve had the privilege of working at{' '}
-              <a href="https://boozallen.com/">Booz Allen, a consulting firm</a>,{' '}
-              <a href="https://deloitte.com/"> Deloitte, another consulting firm</a>,{' '}
-              <a href="https://asurance.com/">a tech insurance company</a>,{' '}
-              <a href="https://www.getaboard.org/">a non-profit based in Orlando</a>, and{' '}
-              <a href="https://ole.org/">an internal non-profit company</a>. My main focus now is
-              building my startup XSJ where I am currently leading two other engineers in building a
-              full-stack application.
+              Over the years, I've had the privilege of contributing my expertise to various
+              esteemed organizations, including <a href="https://clickbanx.africa/">Clickbanx</a>, a
+              fintech powerhouse; <a href="https://hasibu.ke/">Hasibu</a>, a cloud-based Point of
+              Sale innovator; and <a href="https://monzo.com/">Monzo</a>, a prominent fintech giant.
+              Additionally, I've sprinkled a bit of magic at{' '}
+              <a href="https://tirotech.co.ke/">Tirotech Solutions</a>, a leading IT service
+              provider.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>My tech repertoire includes a diverse range of skills, such as:</p>
           </div>
 
           <ul className="skills-list">
