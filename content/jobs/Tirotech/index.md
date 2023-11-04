@@ -8,7 +8,7 @@ url: 'https://www.tiritechsolutions.co.ke'
 ---
 
 - Led and collaborated with cross-functional teams to identify and
-  solve complex technical problems as per user requirements.Utilized Django (Python frameworks) to build web applications and
+  solve complex technical problems as per user requirements.Utilized Django (Python frameworks) and Gin (Go framework) to build web applications and
   APIs.
 - Implemented CI/CD practices to ensure regular integration and
   testing of code changes.
