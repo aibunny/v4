@@ -5,8 +5,8 @@ module.exports = {
     title: 'aibunny',
     description:
       'Fredrick Waihenya is a software engineer who specializes in building, scaling and maintaining APIs for multiple software products .',
-    siteUrl: 'https://theaibunny.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://portfolio.theaibunny.com', // No trailing slash allowed!
+    image: '/me.png', // Path to your image you placed in the 'static' folder
     twitterUsername: 'theaibunny',
   },
   plugins: [
@@ -26,7 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/logo.svg',
       },
     },
     `gatsby-plugin-offline`,

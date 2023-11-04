@@ -8,8 +8,7 @@ const IconLogo = () => (
         id="B"
         transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)"
         fill="#000000"
-        stroke="none"
-      >
+        stroke="none">
         <path
           d="M273 873 l-203 -115 0 -253 0 -253 204 -121 c113 -67 213 -121 224
           -121 18 0 381 200 416 229 14 12 16 44 14 260 l-3 246 -205 123 c-112 67 -214
@@ -30,6 +29,9 @@ const IconLogo = () => (
         />
       </g>
     </g>
+    <text x="28" y="65" fill="currentColor" fontSize="50px" fontFamily="Consolas, serif">
+      A
+    </text>
   </svg>
 );
 
