@@ -25,6 +25,11 @@ const IconLogo = () => (
           C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
           fill="currentColor"
         />
+        {/* Replace the letter "B" with the letter "A" below */}
+        <text x="20" y="35" fill="currentColor" fontSize="40" fontFamily="Arial" fontWeight="bold">
+          A
+        </text>
+        {/* End of the replacement */}
       </g>
     </g>
   </svg>
